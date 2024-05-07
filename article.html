@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" src="static/style.css">
+  <script src="static/main.js" defer></script>
+  <title>Article</title>
+</head>
+<body>
+  <header></header>
+  <aside>
+    <article>
+      <p><b>El equipo quedó campeón</b></p>
+    </article>
+  </aside>
+  <main>
+    <section>
+      <h1>La liga</h1>
+      <p><b>Deje su comentario:</b></p>
+      <form action="validar.html" method="get">
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" minlength="10" maxlength="50" placeholder="Ingrese su nombre" value="Alejandro" title="Campo inhabilitado" required disabled /><br><br>
+        <label for="number">Número:</label>
+        <input type="number" id="number" min="10" max="60" step="0.5" title="Mínimo 10 - Máximo 40" /><br><br>
+        <label for="tel">Teléfono:</label>
+        <input type="tel" id="tel" /><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@correo.com" required /><br><br>
+        <label for="comentario">Comentario:</label><br>
+        <textarea name="contenido" id="contenido" rows="15" cols="40" placeholder="Escriba su comentario aqui" required ></textarea><br><br>
+        <button type="submit" class="button">Enviar comentario</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

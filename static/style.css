@@ -1,4 +1,7 @@
 header{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   border: 3px solid black;
 }
 
@@ -10,6 +13,12 @@ body{
 .image{
   max-width: 80px;
 }
+
 .content{
   max-width: 100px;
+}
+
+.button{
+  color: solid blue;
+  border-radius: 30px;
 }
