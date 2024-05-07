@@ -18,7 +18,7 @@
     <section>
       <h1>La liga</h1>
       <p><b>Deje su comentario:</b></p>
-      <form action="validar.html" method="get">
+      <form action="validar.html" method="get" enctype="multipart/form-data" >
         <label for="name">Nombre:</label>
         <input id="name" type="text" minlength="10" maxlength="50" placeholder="Ingrese su nombre" value="Alejandro" title="Campo inhabilitado" required disabled /><br><br>
         <label for="number">Número:</label>
@@ -26,9 +26,15 @@
         <label for="tel">Teléfono:</label>
         <input type="tel" id="tel" /><br><br>
         <label for="email">Email</label>
-        <input type="email" id="email" placeholder="example@correo.com" pattern="[^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$]" required /><br><br>
+        <input type="text" id="email" placeholder="example@correo.com" pattern="[^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$]" required /><br><br>
+        <label for="birthday">Fecha de nacimiento:</label>
+        <input type="date" id="birthday" /><br><br>
+        <label for="datetime">Cita:</label>
+        <input type="time" id="datetime" /><br><br>
         <label for="comentario">Comentario:</label><br>
         <textarea name="contenido" id="contenido" rows="15" cols="40" placeholder="Escriba su comentario aqui" required ></textarea><br><br>
+        <label for="image">Imagen</label>
+        <input type="file" id="image" accept=".jpg" multiple /><br><br>
         <button type="submit" class="button">Enviar comentario</button>
       </form>
     </section>
