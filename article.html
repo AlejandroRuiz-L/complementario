@@ -26,7 +26,7 @@
         <label for="tel">Teléfono:</label>
         <input type="tel" id="tel" /><br><br>
         <label for="email">Email</label>
-        <input type="email" id="email" placeholder="example@correo.com" required /><br><br>
+        <input type="email" id="email" placeholder="example@correo.com" pattern="[^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$]" required /><br><br>
         <label for="comentario">Comentario:</label><br>
         <textarea name="contenido" id="contenido" rows="15" cols="40" placeholder="Escriba su comentario aqui" required ></textarea><br><br>
         <button type="submit" class="button">Enviar comentario</button>
