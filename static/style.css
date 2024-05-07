@@ -1,0 +1,15 @@
+header{
+  border: 3px solid black;
+}
+
+body{
+  background-color: red;
+  background: red;
+}
+
+.image{
+  max-width: 80px;
+}
+.content{
+  max-width: 100px;
+}
