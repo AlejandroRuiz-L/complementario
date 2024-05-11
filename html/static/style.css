@@ -28,3 +28,8 @@ body{
 .tabla{
   border: 3px solid black;
 }
+
+.boton{
+  background-color: rgb(94, 189, 157);
+  border-radius: 30px;
+}
