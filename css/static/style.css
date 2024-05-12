@@ -69,3 +69,12 @@ h2~a{
   border: 10px solid green;
   margin: 20px;
 }
+
+.goku{
+  display: block;
+  margin: 0 auto;
+  max-height: 600px;
+  filter: drop-shadow(50px 30px 10px #ffff22);
+  filter: drop-shadow(0 -6mm 4mm rgb(255, 255, 23));
+  filter: drop-shadow(0 0 0.75rem rgb(255, 235, 21));
+}
