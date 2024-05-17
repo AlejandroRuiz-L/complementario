@@ -1,102 +1,63 @@
-/*:root*/
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-
-*{
-  font-size: 1.3rem;
-  padding: 0;
-  margin: 0;
+.container {
+    margin: 0 auto;
+    width: 90%; /* Ancho total de la container */
 }
 
-.degragado{
-  background-image: linear-gradient(to bottom right, red, yellow);
+.column {
+    width: 300px; /* Ancho de cada columna */
+    float: left;
+    margin-right: 60px; /* Espacio entre columnas */
 }
 
-.header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: blueviolet;
-}
-
-.titulo{
-  background-color: blueviolet;
-  font-size: 80px;
-}
-
-.herencia{
-  color: blueviolet;
-}
-
-.goku{
-  /*display: block;
-  margin: 0 auto;*/
-  max-width: 40%;
-  filter: drop-shadow(50px 30px 10px rgb(255, 234, 0));
-  filter: drop-shadow(0 -6mm 4mm rgb(255, 234, 0));
-  filter: drop-shadow(0 0 0.75rem rgb(255, 234, 0));
-}
-
-.ticket{
-  max-width: 12%;
-}
-
-
-.card{
-  width: 300px;
-  padding: 0 0 30;
-  margin: 30px auto;
-  text-align: center;
-  max-width: 50%;
-  border: 3px solid black;
-  border-radius: 20px;
-  background-color: antiquewhite;
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 60px; /* Espacio entre tarjetas */
 }
 
 .card:hover{
   transform: scale(1.1);
 }
 
-.img{
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  display: block;
+.card img {
+    width: 100%;
+    height: auto;
 }
 
-.contenedor{
-  width: 90%;
-  margin: 0 auto;
-  overflow: hidden;
+.contenedor {
+    padding: 10px;
 }
 
-.title{
-  color: #a60909;
-  text-align: center;
-  margin: 20px 0px 10px 10px;
+.title {
+    font-size: 1.2em;
 }
 
-.fondo{
-  font-family: "Poetsen One", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+.texto {
+    font-size: 1em;
 }
 
-.text{
-  text-align: center;
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.button{
-  display: block;
-  background-color: #a60909;
-  padding: 13px 0px;
-  color: white;
-  text-decoration: none;
-  border-radius: 30px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.button:hover {
+    background-color: #0056b3;
 }
 
-.button:hover{
-  color: black;
+/* Limpiar flotantes */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
 }
