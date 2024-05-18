@@ -5,6 +5,10 @@
   background-color: antiquewhite;
 }
 
+a{
+  text-decoration: none;
+}
+
 .enlace{
   display: block;
   background-color: rgb(139, 55, 164);
@@ -12,6 +16,7 @@
   color: aliceblue;
   padding: 20px;
   border-bottom: 4px solid #000000;
+  font-size: 1.3rem;
 }
 
 .enlace:link{
@@ -23,9 +28,9 @@
 }
 
 .enlace:hover{
-  padding-bottom: 10px solid #888888;
+  transform: translate(12px);
+  /*  padding-bottom: 10px solid #888888;*/
   color: black;
-  font-size: 1.2rem;
 }
 
 nav{
@@ -56,6 +61,8 @@ div{
   margin: 30px auto;
   background: #78378c;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  border: 3px solid purple;
 }
 
 .form__title{
@@ -82,13 +89,14 @@ input[type="checkbox"]{
 }
 
 input[type="checkbox"]:checked + label{
-  font-size: 1.2rem;
+  color: aliceblue;
 }
 
 label{
   display: block;
   text-align: center;
   background: #78378c;
+  font-size: 1.1rem;
 }
 
 input:focus{
@@ -99,6 +107,15 @@ input[type="submit"]{
   display: block;
   margin: 15px auto;
   width: 20%;
+  height: 30px;
+  background: black;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+  transform: scale(1.1);
 }
 
 h3{
@@ -107,4 +124,8 @@ h3{
   font-family: helvetica;
   text-align: center;
   margin-top: 30px;
+}
+
+h3:not(.title):not(:hover){
+  color:crimson;
 }
