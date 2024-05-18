@@ -1,3 +1,48 @@
+.goku{
+  display: block;
+  margin: 0 auto;
+  max-height: 600px;
+  filter: drop-shadow(50px 30px 10px #ffff22);
+  filter: drop-shadow(0 -6mm 4mm rgb(255, 255, 23));
+  filter: drop-shadow(0 0 0.75rem rgb(255, 235, 21));
+}
+
+.cell{
+  display: block;
+  margin: 0 auto;
+  max-height: 600px;
+  filter: drop-shadow(50px 30px 10px #22ff31);
+  filter: drop-shadow(0 -6mm 4mm rgb(50, 255, 23));
+  filter: drop-shadow(0 0 0.75rem rgb(21, 255, 33));
+}
+
+.piccolo{
+  display: block;
+  margin: 0 auto;
+  max-height: 600px;
+  filter: drop-shadow(50px 30px 10px #8800ff);
+  filter: drop-shadow(0 -6mm 4mm rgb(146, 0, 237));
+  filter: drop-shadow(0 0 0.75rem rgb(156, 0, 239));
+}
+
+.vegeta{
+  display: block;
+  margin: 0 auto;
+  max-height: 600px;
+  filter: drop-shadow(50px 30px 10px #004de6);
+  filter: drop-shadow(0 -6mm 4mm rgb(41, 37, 255));
+  filter: drop-shadow(0 0 0.75rem rgb(58, 44, 255));
+}
+
+.gokuRosa{
+  display: block;
+  margin: 0 auto;
+  max-height: 600px;
+  filter: drop-shadow(50px 30px 10px #db0eff);
+  filter: drop-shadow(0 -6mm 4mm rgb(232, 22, 255));
+  filter: drop-shadow(0 0 0.75rem rgb(212, 39, 255));
+}
+
 .container {
     margin: 0 auto;
     width: 90%; /* Ancho total de la container */
