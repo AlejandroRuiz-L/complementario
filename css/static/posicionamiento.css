@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background: steelblue;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 1.2rem;
+}
+
+.container{
+  width: 150px;
+  height: 530px;
+  margin: 20px auto;
+  border: 5px solid black;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.box{
+  background: salmon;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.static{
+  position: static;
+  border: 3px solid #73AD
+}
+
+.relative{
+  position: relative;
+  background: crimson;
+}
+
+.absolute{
+  position: absolute;
+  background: purple;
+}
+
+.fixed{
+  background: green;
+  position: fixed;
+}
