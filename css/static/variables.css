@@ -1,0 +1,102 @@
+@import url(root.css);
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
+  min-height: 100dvh;
+  background-image: var(--gradient)
+}
+
+a{
+  text-decoration: none;
+  background: steelblue;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a:hover{
+  transform: scale(1.1);
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  background: white;
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+  align-items: center;
+  transition: .7s;
+  background: var(--background);
+  background-image: var(--background__card);
+  border-radius: var(--radius);
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card__title{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--color1);
+  margin-bottom: 20px;
+}
+
+.card__btn{
+  display: block;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: var(--color1);
+  text-decoration: none;
+  font-weight: bold;
+  background-image: var(--backgroundBtn);
+  transition: 1s;
+  width: 85px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.card__btn:hover{
+  transform: scale(1.1);
+}
+
+.card__text{
+  color: var(--color2);
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.cardDos{
+  --color3: purple;
+  background: var(--background__card);
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+  transition: .7s;
+  background: var(--background);
+  background-image: var(--background__card);
+  border-radius: var(--radius);
+}
+
+.cardDos:hover{
+  transform: scale(1.1);
+}

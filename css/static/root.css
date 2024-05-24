@@ -1,3 +1,10 @@
 :root{
-  --background: rgb(237, 237, 237);
+  --gradient: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  --background: rgb(165, 195, 220);
+  --backgroundBtn: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  --color1: rgb(53, 53, 53);
+  --color2: rgb(107, 104, 106);
+  --box-shadow: 5px 5px 5px;
+  --background__card: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  --radius: 20px;
 }
