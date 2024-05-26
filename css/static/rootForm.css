@@ -1,0 +1,15 @@
+:root{
+  --gradientA: linear-gradient(120deg, #e0c3fc00 0%, #8ec5fc00 100%);
+  --gradientB: linear-gradient(135deg, #7a8ee7 0%, #825ca9 100%);
+  --gradientC: linear-gradient(135deg, #5872e5 0%, #7342a4 100%);
+  --url-img: url("fondo4.jpg");
+  --box-shadow: 6px 6px 6px rgba(0, 0, 0, 6);
+  --width: 100%;
+  --radius: 8px; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

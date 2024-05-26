@@ -7,4 +7,6 @@
   --box-shadow: 5px 5px 5px;
   --background__card: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
   --radius: 20px;
+  --img: url('static/fondo.png');
+  --center: 0 auto;
 }
