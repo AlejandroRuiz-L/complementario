@@ -14,13 +14,13 @@
 
 <body>
   <div class="header">
-  <nav class="contenedor nav-contenedor">
-    <a href="" class="enlace logo">JavaScript</a>
-    <a href="#inicio" class="enlace">Inicio</a>
-    <a href="#nosotros" class="enlace">Acerca de</a>
-    <a href="#contacto" class="enlace">Contacto</a>
-    <a href="#precios" class="enlace">Precios</a>
-  </nav>
+    <nav class="contenedor nav-contenedor">
+      <a href="" class="enlace logo">JavaScript</a>
+      <a href="#inicio" class="enlace">Inicio</a>
+      <a href="#nosotros" class="enlace">Acerca de</a>
+      <a href="#contacto" class="enlace">Contacto</a>
+      <a href="#precios" class="enlace">Precios</a>
+    </nav>
   </div>
   <main>
     <section class="contenedor principio" id="inicio">
@@ -35,24 +35,44 @@
       <img src="static/logoHTML.png" alt="Logo CSS" class="ilustracion">
       <article class="contenedor-textos">
         <h2>Nosotros</h2>
-        <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam distinctio iusto eligendi delectus laborum quo quas, consectetur voluptatem quis atque itaque soluta harum unde est facere doloremque provident impedit ipsa mollitia? Rem illo, porro repellendus excepturi est, ducimus, atque non dignissimos placeat ipsum earum molestias suscipit corporis laborum! Magni, possimus.</p>
+        <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam distinctio iusto eligendi
+          delectus laborum quo quas, consectetur voluptatem quis atque itaque soluta harum unde est facere doloremque
+          provident impedit ipsa mollitia? Rem illo, porro repellendus excepturi est, ducimus, atque non dignissimos
+          placeat ipsum earum molestias suscipit corporis laborum! Magni, possimus.</p>
       </article>
       <img src="static/logoCSS.png" alt="Logo HTML" class="ilustracion">
     </section>
     <section class="contenedor principio" id="contacto">
       <article class="contenedor-textos">
-        <h2>Contacto</h2>
+        <h2>Formulario de <span>Contacto</span></h2>
         <p class="copy">Ingrese sus datos y nos contactaremos con usted lo antes posible.</p>
-        <form method="post" action="index.html">
-          <label for="name">Nombre:</label>
-          <input type="text" />
+        <form method="post" action="index.html" class="form">
+          <div>
+            <label for="name">Nombre completo:</label>
+            <input type="text" id="name" name="userName" required />
+            <label for="phone">Teléfono:</label>
+            <input type="text" id="phone" name="userName" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="userEmail" required />
+          </div>
+          <div class="column">
+          <label for="decision">Aceptas los términos y condiciones?</label>
+          <input type="checkbox" id="decision" name="userDesicion" required />
+          <input type="submit" id="send" />
+          </div>
+          <div>
+          <textarea id="msg" name="userMsg" placeholder="Deja tu comentario aquí..." class="textArea"></textarea>
+          </div>
         </form>
       </article>
     </section>
     <section class="precios" id="precios">
       <article class="preciosInfo">
         <h2>Precios</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti, rem et fugit quasi possimus perspiciatis molestiae, quidem beatae recusandae corrupti quam! Vel, harum sapiente blanditiis tenetur iure doloribus nisi, eaque odio ipsam magni praesentium esse unde eum temporibus amet dolorum? Quo iusto provident tenetur beatae pariatur tempora distinctio harum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti, rem et fugit quasi possimus
+          perspiciatis molestiae, quidem beatae recusandae corrupti quam! Vel, harum sapiente blanditiis tenetur iure
+          doloribus nisi, eaque odio ipsam magni praesentium esse unde eum temporibus amet dolorum? Quo iusto provident
+          tenetur beatae pariatur tempora distinctio harum.</p>
       </article>
     </section>
   </main>
