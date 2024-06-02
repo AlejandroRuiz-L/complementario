@@ -20,6 +20,7 @@ body{
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-style: normal;
+  padding-top: 20px;
   background: #ececec;
 }
 
@@ -29,6 +30,20 @@ body{
   width: 100%;
 }
 */
+
+h1.titulo span{
+  color: var(--color3);
+  font-size: 3.3rem;
+}
+
+h1.titulo::before,
+h1.titulo::after{
+  content: "";
+  background: black;
+  padding: 2px;
+  margin: 0 15px;
+}
+
 h2{
   font-size: 2rem;
 }
@@ -57,6 +72,14 @@ h2 span{
   border: 1px solid var(--color5);
   border-radius: 10px;
   margin-bottom: 280px;
+}
+
+.nav-contenedor::before,
+.nav-contenedor::after{
+  content: "";
+  background: black;
+  padding: 4px;
+  margin: 0 15px;
 }
 
 .logo{
@@ -98,11 +121,6 @@ h2 span{
   font-weight: 800;
 }
 
-h1.titulo span{
-  color: var(--color3);
-  font-size: 3.3rem;
-}
-
 .contenedor-textos{
   display: flex;
   flex-direction: column;
@@ -124,6 +142,7 @@ h1.titulo span{
   border-radius: 10px;
   font-size: 1.2rem;
   transition: .7s;
+  box-shadow: 10px 5px 5px var(--color5);
 }
 
 .cta:hover{
@@ -144,6 +163,7 @@ h1.titulo span{
   height: 300px;
   border: 1px solid var(--color5);
   border-radius: 10px;
+  box-shadow: 10px 5px 5px var(--color5);
 }
 
 form{
