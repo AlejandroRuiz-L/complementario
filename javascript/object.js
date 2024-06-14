@@ -134,9 +134,64 @@
 //   console.log('Se realizo correctamente.', error)
 // }
 // console.log(error)
-try {
-  let a = 
-  console.log(a * 8)
-} catch (error) {
-  console.log("Error")
+
+// try {
+//   let a = 
+//   console.log(a * 8)
+// } catch (error) {
+//   console.log("Error")
+// }
+
+let a, b, c, d;
+[a, b, c] = [7, 4, 3];
+[d] = [5];
+
+//document.write(typeof d == "number" ? "Es un numero" : "No es un numero");
+
+// class Operations{
+
+//   constructor(a, b) {
+//     this.a = a;
+//     this.b = b;
+//   }
+
+//   suma = () => { return this.a + this.b;}
+
+//   resta() {
+//     return a - b;
+//   }
+
+//   multiplica() { return this.a * this.b }
+
+//   dicide
+// }
+
+// const operation = new Operations(c, d);
+// let suma = operation.suma();
+// let resta = operation.resta();
+// let multiplica = operation.multiplica();
+// let br = "<br>";
+
+
+// document.write(suma, br);
+// document.write(resta, br);
+// document.write(multiplica);
+
+// const number = document.getElementById('entrada');
+
+// console.log(number);
+
+((a, b) => console.log(a + b))(a, b);
+((a, b) => console.log(a * b))(a, b);
+((a, b) => console.log(a / b))(a, b);
+
+function rest(...number) {
+  return number.reduce((acum, num) => acum + num, 0);
 }
+
+console.log(rest(1, 1, 1, 1, 1, 1, 1, 1));
+const arreglo1 = [1, 2, 3, 4];
+const arreglo2 = [5, 6, 7, 8];
+let spread = [...arreglo1, ...arreglo2];
+
+console.log(spread);
