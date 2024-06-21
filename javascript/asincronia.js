@@ -86,16 +86,16 @@ getUserById(id, function (error, user) {
   } else {
     if (user.student) {
       console.log(`Usuario: ${user.name}`);
+      console.log('Asignaciones:')
+      getSignatures(signature, function (error, signature) {
+        if (error) {
+          console.error(error);
+        } else {
+          console.log(signature.title, 'dos');
+        }
+      })
     } else {
-      console.log(`El usuario ${user.name} no es instructor.`);
+      console.log(`El usuario ${user.name} no es estudiante.`);
     }
-  }
-})
-
-getSignatures(signature, function (error, signature) {
-  if (error) {
-    console.error(error);
-  } else {
-    console.log(`Asignación: ${signature.title}`);
   }
 })
