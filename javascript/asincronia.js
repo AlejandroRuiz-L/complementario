@@ -66,7 +66,7 @@ const boton3 = document.getElementById('boton3');
 
 // saludo('Alejandro', function callback(mensaje) { console.log(mensaje) });
 
-import { getUserById, getSignatures } from "./module.js";
+import { getUserById, getSignatures, returnName } from "./module.js";
 
 // const estudiar = function (nombre, callback) {
 //   callback(nombre);
@@ -77,25 +77,21 @@ import { getUserById, getSignatures } from "./module.js";
 // })
 
 let id = parseInt(prompt('Ingrese el id'));
-let signature;
 
-getUserById(id, function (error, user) {
-  signature = user.signature;
-  if (error) {
-    console.error(error);
-  } else {
-    if (user.student) {
-      console.log(`Usuario: ${user.name}`);
-      console.log('Asignaciones:')
-      getSignatures(signature, function (error, signature) {
-        if (error) {
-          console.error(error);
-        } else {
-          console.log(signature.title, 'dos');
+getUserById(id)
+  .then(result => {
+    console.log("Usuario: " + result.value.name);
+    getSignatures(result.value.signature)
+      .then(result => {
+        console.log('Asignaciones:');
+        for (let key in result.value) {
+          console.log(`${parseInt(key) + 1}. ${result.value[key].title}`);
         }
       })
-    } else {
-      console.log(`El usuario ${user.name} no es estudiante.`);
-    }
-  }
-})
+  }).catch(error => {
+    console.log(error);
+  });
+
+let name = prompt('Ingrese su nombre:');
+
+console.log(returnName(name));

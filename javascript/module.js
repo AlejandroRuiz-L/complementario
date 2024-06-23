@@ -14,6 +14,10 @@ const signatures = [
   {
     id: 4,
     title: 'DOM'
+  },
+  {
+    id: 5,
+    title: 'SCRUM'
   }
 ]
 
@@ -22,7 +26,7 @@ const users = [
     id: 1,
     name: 'Alejandro',
     student: true,
-    signature: [1]
+    signature: [1, 5]
   },
   {
     id: 2,
@@ -41,31 +45,43 @@ const users = [
     id: 4,
     name: 'Adderlyn',
     student: false,
-    signature: NaN
+    signature: []
+  },
+  {
+    id: 5,
+    name: 'Miguel',
+    student: true,
+    signature: [1, 2, 3, 4]
   }
 ];
 
-export function getUserById(id, callback) {
+export async function getUserById(id) {
   const user = users.find(function (user) {
     return user.id === id;
   });
-  if (!user) {
-    return callback(`Usuario ${id} no encontrado.`);
+  if (!user || !user.student) {
+    return Promise.reject(`Usuario ${id} no válido.`);
   }
-  return callback(null, user);
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({
+        value: user
+      });
+    }, 3000);
+  })
 }
 
-export function getSignatures(id, callback) {
-  let count = 1
-  while (count < id.length) {
-    // const signature = signatures.find(function (signature) {
-    //   return signature.id === id;
-    // });
-    const signature = id.length
-    id.forEach((i) => console.log(signatures[i-1].title));
-    if (!signature) {
-      return callback(`Signatura ${id} no encontrada.`)
-    }
-    return callback(null, signature);
-  }
+export async function getSignatures(ids) {
+  const search = signatures.filter((asignacion) => ids.includes(asignacion.id) ? true : false);
+  return new Promise((ok, notOk) => {
+    setTimeout(() => {
+      ok({
+        value: search
+      })
+    }, 2000);
+  })
+}
+
+export async function returnName(name) {
+  return name
 }
