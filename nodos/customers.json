@@ -1,0 +1,164 @@
+[
+  {
+    "name": "ABC Company",
+    "industry": "Technology",
+    "contactPerson": "John Smith",
+    "email": "john.smith@abccompany.com",
+    "phone": "+1234567890",
+    "address": "789 Technology Blvd, Tech City",
+    "id": 1
+  },
+  {
+    "name": "XYZ Corporation",
+    "industry": "Finance",
+    "contactPerson": "Emily Brown",
+    "email": "emily.brown@xyzcorp.com",
+    "phone": "+1987654321",
+    "address": "456 Finance Street, Financial District",
+    "id": 2
+  },
+  {
+    "name": "Global Solutions Inc.",
+    "industry": "Consulting",
+    "contactPerson": "Michael Johnson",
+    "email": "michael.johnson@globalsolutions.com",
+    "phone": "+1122334455",
+    "address": "123 Consultant Avenue, Consultant City",
+    "id": 3
+  },
+  {
+    "name": "Tech Enterprises Ltd.",
+    "industry": "Technology",
+    "contactPerson": "Sarah Davis",
+    "email": "sarah.davis@techenterprises.com",
+    "phone": "+1445566778",
+    "address": "234 Tech Plaza, Tech Town",
+    "id": 4
+  },
+  {
+    "name": "Innovate Industries",
+    "industry": "Innovation",
+    "contactPerson": "Robert Green",
+    "email": "robert.green@innovateindustries.com",
+    "phone": "+1567890123",
+    "address": "567 Innovation Street, Innovation City",
+    "id": 5
+  },
+  {
+    "name": "EcoTech Solutions",
+    "industry": "Environmental",
+    "contactPerson": "Jessica Lee",
+    "email": "jessica.lee@ecotechsolutions.com",
+    "phone": "+1654321876",
+    "address": "890 Eco Avenue, Eco City",
+    "id": 6
+  },
+  {
+    "name": "Future Trends Ltd.",
+    "industry": "Technology",
+    "contactPerson": "David Wilson",
+    "email": "david.wilson@futuretrends.com",
+    "phone": "+1789456123",
+    "address": "123 Future Road, Future Town",
+    "id": 7
+  },
+  {
+    "name": "Global Tech Solutions",
+    "industry": "Technology",
+    "contactPerson": "Jennifer Hall",
+    "email": "jennifer.hall@globaltechsolutions.com",
+    "phone": "+1876543210",
+    "address": "456 Global Street, Global City",
+    "id": 8
+  },
+  {
+    "name": "Innovative Minds Inc.",
+    "industry": "Innovation",
+    "contactPerson": "Andrew Roberts",
+    "email": "andrew.roberts@innovativeminds.com",
+    "phone": "+1654789234",
+    "address": "678 Innovation Plaza, Innovator Town",
+    "id": 9
+  },
+  {
+    "name": "Tech Innovations LLC",
+    "industry": "Technology",
+    "contactPerson": "Michelle Turner",
+    "email": "michelle.turner@techinnovations.com",
+    "phone": "+1987654321",
+    "address": "987 Tech Avenue, Tech City",
+    "id": 10
+  },
+  {
+    "name": "Digital Solutions Group",
+    "industry": "Digital",
+    "contactPerson": "Daniel Martinez",
+    "email": "daniel.martinez@digitalsolutionsgroup.com",
+    "phone": "+1122334455",
+    "address": "123 Digital Street, Digital City",
+    "id": 11
+  },
+  {
+    "name": "Web Wizards Inc.",
+    "industry": "Web Development",
+    "contactPerson": "Sophia Clark",
+    "email": "sophia.clark@webwizardsinc.com",
+    "phone": "+1445566778",
+    "address": "234 Web Plaza, Web City",
+    "id": 12
+  },
+  {
+    "name": "Software Solutions Co.",
+    "industry": "Software",
+    "contactPerson": "Thomas Harris",
+    "email": "thomas.harris@softwaresolutionsco.com",
+    "phone": "+1567890123",
+    "address": "345 Software Street, Software Town",
+    "id": 13
+  },
+  {
+    "name": "Code Masters Ltd.",
+    "industry": "Software Development",
+    "contactPerson": "Olivia Baker",
+    "email": "olivia.baker@codemastersltd.com",
+    "phone": "+1654321876",
+    "address": "456 Code Avenue, Code City",
+    "id": 14
+  },
+  {
+    "name": "Creative Solutions Inc.",
+    "industry": "Creative",
+    "contactPerson": "Lucas Thompson",
+    "email": "lucas.thompson@creativesolutionsinc.com",
+    "phone": "+1789456123",
+    "address": "567 Creative Street, Creative City",
+    "id": 15
+  },
+  {
+    "name": "InnoTech Enterprises",
+    "industry": "Technology",
+    "contactPerson": "Sophie White",
+    "email": "sophie.white@innotechenterprises.com",
+    "phone": "+1876543210",
+    "address": "678 InnoTech Plaza, InnoTech City",
+    "id": 16
+  },
+  {
+    "name": "Smart Solutions Ltd.",
+    "industry": "Technology",
+    "contactPerson": "Jacob Miller",
+    "email": "jacob.miller@smartsolutionsltd.com",
+    "phone": "+1654789234",
+    "address": "789 Smart Street, Smart City",
+    "id": 17
+  },
+  {
+    "name": "DevTech Innovations",
+    "industry": "Development",
+    "contactPerson": "Isabella Garcia",
+    "email": "isabella.garcia@devtechinnovations.com",
+    "phone": "+1987654321",
+    "address": "890 DevTech Avenue, DevTech City",
+    "id": 18
+  }
+]

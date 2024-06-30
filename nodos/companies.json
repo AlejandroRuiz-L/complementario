@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Tech Solutions Inc.",
+    "address": "789 Innovation Avenue, Tech City",
+    "email": "contact@techsolutions.com",
+    "description": "Tech Solutions Inc. specializes in software development and IT consulting services. They are known for their innovative solutions in various industries.",
+    "website": "https://www.techsolutions.com",
+    "id": 1
+  },
+  {
+    "name": "Software Innovations Ltd.",
+    "address": "456 Technology Park, Software Valley",
+    "email": "info@softwareinnovations.com",
+    "description": "Software Innovations Ltd. is a leading provider of custom software solutions. They focus on creating cutting-edge applications for businesses worldwide.",
+    "website": "https://www.softwareinnovations.com",
+    "id": 2
+  },
+  {
+    "name": "Code Crafters LLC",
+    "address": "123 Coding Street, Developer Town",
+    "email": "support@codecrafters.com",
+    "description": "Code Crafters LLC offers comprehensive software development services. They specialize in building scalable and robust applications for diverse client needs.",
+    "website": "https://www.codecrafters.com",
+    "id": 3
+  },
+  {
+    "name": "TechGurus",
+    "address": "234 Tech Avenue, Silicon Valley",
+    "email": "hello@techgurus.io",
+    "description": "TechGurus is a team of passionate developers dedicated to creating user-friendly and efficient software solutions. They are known for their expertise in frontend development.",
+    "website": "https://www.techgurus.io",
+    "id": 4
+  },
+  {
+    "name": "Innovative Software Solutions",
+    "address": "567 Innovation Square, Software City",
+    "email": "info@innovativesoftware.com",
+    "description": "Innovative Software Solutions specializes in designing and developing scalable software applications. They focus on leveraging cutting-edge technologies for optimal performance.",
+    "website": "https://www.innovativesoftware.com",
+    "id": 5
+  },
+  {
+    "name": "ByteMasters",
+    "address": "890 Byte Boulevard, Digital Park",
+    "email": "contact@bytemasters.com",
+    "description": "ByteMasters is a creative team of UI/UX designers passionate about crafting engaging user experiences. They work closely with clients to deliver visually appealing solutions.",
+    "website": "https://www.bytemasters.com",
+    "id": 6
+  },
+  {
+    "name": "Code Crunchers",
+    "address": "123 Crunchy Lane, Developer City",
+    "email": "info@codecrunchers.co",
+    "description": "Code Crunchers is a dynamic team of backend developers focused on building robust and scalable backend systems. They specialize in optimizing server-side operations.",
+    "website": "https://www.codecrunchers.co",
+    "id": 7
+  },
+  {
+    "name": "Digital Solutions",
+    "address": "456 Digital Street, Digital City",
+    "email": "info@digitalsolutions.com",
+    "description": "Digital Solutions provides innovative software solutions tailored to meet the evolving needs of businesses in a digital world. They focus on digital transformation.",
+    "website": "https://www.digitalsolutions.com",
+    "id": 8
+  },
+  {
+    "name": "WebTech",
+    "address": "678 Web Avenue, Web Town",
+    "email": "hello@webtech.io",
+    "description": "WebTech is a leading provider of full-stack development services. They specialize in creating responsive web applications using the latest web technologies.",
+    "website": "https://www.webtech.io",
+    "id": 9
+  },
+  {
+    "name": "Code Masters",
+    "address": "987 Code Plaza, Coding City",
+    "email": "info@codemasters.com",
+    "description": "Code Masters is dedicated to software development excellence. They focus on delivering efficient and scalable software solutions for diverse business needs.",
+    "website": "https://www.codemasters.com",
+    "id": 10
+  },
+  {
+    "name": "InnoSoft",
+    "address": "123 Innovation Avenue, Innovator City",
+    "email": "contact@innosoft.com",
+    "description": "InnoSoft specializes in creating cutting-edge software solutions. They are known for their expertise in tech leadership and innovative software development practices.",
+    "website": "https://www.innosoft.com",
+    "id": 11
+  },
+  {
+    "name": "Tech Innovations",
+    "address": "234 Tech Street, Tech Town",
+    "email": "info@techinnovations.com",
+    "description": "Tech Innovations is committed to pushing the boundaries of technology. They specialize in creating groundbreaking software solutions that drive digital transformation.",
+    "website": "https://www.techinnovations.com",
+    "id": 12
+  },
+  {
+    "name": "Agile Developers",
+    "address": "345 Agile Avenue, Agile City",
+    "email": "info@agiledevelopers.com",
+    "description": "Agile Developers is a team of agile enthusiasts dedicated to delivering high-quality software solutions using agile methodologies. They focus on rapid development and customer collaboration.",
+    "website": "https://www.agiledevelopers.com",
+    "id": 13
+  },
+  {
+    "name": "Creative Coders",
+    "address": "456 Creative Street, Creative City",
+    "email": "hello@creativecoders.co",
+    "description": "Creative Coders is a creative team specializing in frontend development. They create innovative and user-friendly interfaces that enhance user experiences.",
+    "website": "https://www.creativecoders.co",
+    "id": 14
+  },
+  {
+    "name": "Tech Solutions",
+    "address": "567 Tech Plaza, Tech City",
+    "email": "info@techsolutions.net",
+    "description": "Tech Solutions specializes in providing robust software solutions. They leverage technology to solve complex business challenges and improve operational efficiency.",
+    "website": "https://www.techsolutions.net",
+    "id": 15
+  },
+  {
+    "name": "Web Wizards",
+    "address": "678 Wizard Avenue, Wizard City",
+    "email": "info@webwizards.com",
+    "description": "Web Wizards is dedicated to creating wizardry on the web. They specialize in web development and digital solutions that empower businesses.",
+    "website": "https://www.webwizards.com",
+    "id": 16
+  },
+  {
+    "name": "Software Solutions",
+    "address": "789 Software Street, Software Valley",
+    "email": "info@softwaresolutions.com",
+    "description": "Software Solutions provides comprehensive software development services. They focus on delivering scalable and efficient software solutions tailored to client needs.",
+    "website": "https://www.softwaresolutions.com",
+    "id": 17
+  },
+  {
+    "name": "Innovative Tech",
+    "address": "890 Innovative Boulevard, Tech Park",
+    "email": "info@innovativetech.com",
+    "description": "Innovative Tech specializes in cutting-edge technology solutions. They focus on innovation and technology leadership in software development.",
+    "website": "https://www.innovativetech.com",
+    "id": 18
+  },
+  {
+    "name": "DevTech Solutions",
+    "address": "123 DevTech Drive, Dev City",
+    "email": "info@devtechsolutions.com",
+    "description": "DevTech Solutions is a leading provider of backend development services. They focus on building robust and scalable backend systems for diverse applications.",
+    "website": "https://www.devtechsolutions.com",
+    "id": 19
+  },
+  {
+    "name": "Software Creations",
+    "address": "234 Software Avenue, Creations Town",
+    "email": "info@softwarecreations.com",
+    "description": "Software Creations specializes in creating innovative software solutions. They are dedicated to delivering high-quality software products that meet client expectations.",
+    "website": "https://www.softwarecreations.com",
+    "id": 20
+  },
+  {
+    "name": "Smart Developers",
+    "address": "345 Smart Street, Developer City",
+    "email": "info@smartdevelopers.com",
+    "description": "Smart Developers is committed to smart software solutions. They specialize in full-stack development and innovative technology solutions.",
+    "website": "https://www.smartdevelopers.com",
+    "id": 21
+  }
+]

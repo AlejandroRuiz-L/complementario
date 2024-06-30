@@ -1,0 +1,254 @@
+[
+  {
+    "fullName": "Juan Perez",
+    "age": 30,
+    "phone": "+1234567890",
+    "email": "juan.perez@example.com",
+    "address": "123 Main Street, City",
+    "company": {
+      "name": "Tech Solutions Inc.",
+      "position": "Software Engineer"
+    },
+    "id": 1
+  },
+  {
+    "fullName": "Maria Garcia",
+    "age": 25,
+    "phone": "+1987654321",
+    "email": "maria.garcia@example.com",
+    "address": "456 Secondary Avenue, City",
+    "company": {
+      "name": "Software Innovations Ltd.",
+      "position": "Web Developer"
+    },
+    "id": 2
+  },
+  {
+    "fullName": "Carlos Lopez",
+    "age": 35,
+    "phone": "+1122334455",
+    "email": "carlos.lopez@example.com",
+    "address": "789 Central Plaza, City",
+    "company": {
+      "name": "Code Crafters LLC",
+      "position": "Senior Developer"
+    },
+    "id": 3
+  },
+  {
+    "fullName": "Ana Martinez",
+    "age": 28,
+    "phone": "+1445566778",
+    "email": "ana.martinez@example.com",
+    "address": "234 Hope Street, City",
+    "company": {
+      "name": "TechGurus",
+      "position": "Frontend Developer"
+    },
+    "id": 4
+  },
+  {
+    "fullName": "Pedro Rodriguez",
+    "age": 32,
+    "phone": "+1567890123",
+    "email": "pedro.rodriguez@example.com",
+    "address": "567 Liberty Boulevard, City",
+    "company": {
+      "name": "Innovative Software Solutions",
+      "position": "Software Architect"
+    },
+    "id": 5
+  },
+  {
+    "fullName": "Laura Hernandez",
+    "age": 29,
+    "phone": "+1654321876",
+    "email": "laura.hernandez@example.com",
+    "address": "890 Olive Roundabout, City",
+    "company": {
+      "name": "ByteMasters",
+      "position": "UI/UX Designer"
+    },
+    "id": 6
+  },
+  {
+    "fullName": "Javier Diaz",
+    "age": 27,
+    "phone": "+1789456123",
+    "email": "javier.diaz@example.com",
+    "address": "1234 Main Avenue, City",
+    "company": {
+      "name": "Code Crunchers",
+      "position": "Backend Developer"
+    },
+    "id": 7
+  },
+  {
+    "fullName": "Isabel Ruiz",
+    "age": 31,
+    "phone": "+1876543210",
+    "email": "isabel.ruiz@example.com",
+    "address": "4567 Mayor Street, City",
+    "company": {
+      "name": "Digital Solutions",
+      "position": "Software Engineer"
+    },
+    "id": 8
+  },
+  {
+    "fullName": "Miguel Sanchez",
+    "age": 33,
+    "phone": "+1654789234",
+    "email": "miguel.sanchez@example.com",
+    "address": "6789 Flower Drive, City",
+    "company": {
+      "name": "WebTech",
+      "position": "Full Stack Developer"
+    },
+    "id": 9
+  },
+  {
+    "fullName": "Sofia Torres",
+    "age": 26,
+    "phone": "+1987654321",
+    "email": "sofia.torres@example.com",
+    "address": "9876 Sun Plaza, City",
+    "company": {
+      "name": "Code Masters",
+      "position": "Software Developer"
+    },
+    "id": 10
+  },
+  {
+    "fullName": "Daniel Gomez",
+    "age": 34,
+    "phone": "+1122334455",
+    "email": "daniel.gomez@example.com",
+    "address": "12345 Star Street, City",
+    "company": {
+      "name": "InnoSoft",
+      "position": "Tech Lead"
+    },
+    "id": 11
+  },
+  {
+    "fullName": "Elena Vazquez",
+    "age": 30,
+    "phone": "+1445566778",
+    "email": "elena.vazquez@example.com",
+    "address": "23456 Moon Boulevard, City",
+    "company": {
+      "name": "Tech Innovations",
+      "position": "Senior Software Engineer"
+    },
+    "id": 12
+  },
+  {
+    "fullName": "Antonio Flores",
+    "age": 29,
+    "phone": "+1567890123",
+    "email": "antonio.flores@example.com",
+    "address": "34567 Angel Avenue, City",
+    "company": {
+      "name": "Agile Developers",
+      "position": "Scrum Master"
+    },
+    "id": 13
+  },
+  {
+    "fullName": "Paula Jimenez",
+    "age": 27,
+    "phone": "+1654321876",
+    "email": "paula.jimenez@example.com",
+    "address": "45678 Sun Street, City",
+    "company": {
+      "name": "Creative Coders",
+      "position": "Frontend Developer"
+    },
+    "id": 14
+  },
+  {
+    "fullName": "Marcos Ramirez",
+    "age": 32,
+    "phone": "+1789456123",
+    "email": "marcos.ramirez@example.com",
+    "address": "56789 Star Roundabout, City",
+    "company": {
+      "name": "Tech Solutions",
+      "position": "Software Engineer"
+    },
+    "id": 15
+  },
+  {
+    "fullName": "Lucia Castro",
+    "age": 28,
+    "phone": "+1876543210",
+    "email": "lucia.castro@example.com",
+    "address": "67890 Main Plaza, City",
+    "company": {
+      "name": "Web Wizards",
+      "position": "Web Developer"
+    },
+    "id": 16
+  },
+  {
+    "fullName": "Roberto Herrera",
+    "age": 31,
+    "phone": "+1654789234",
+    "email": "roberto.herrera@example.com",
+    "address": "78901 Peace Avenue, City",
+    "company": {
+      "name": "Software Solutions",
+      "position": "Senior Developer"
+    },
+    "id": 17
+  },
+  {
+    "fullName": "Silvia Morales",
+    "age": 33,
+    "phone": "+1987654321",
+    "email": "silvia.morales@example.com",
+    "address": "89012 Joy Street, City",
+    "company": {
+      "name": "Innovative Tech",
+      "position": "Software Architect"
+    },
+    "id": 18
+  },
+  {
+    "fullName": "Diego Ortega",
+    "age": 26,
+    "phone": "+1122334455",
+    "email": "diego.ortega@example.com",
+    "address": "123456 Victory Drive, City",
+    "company": {
+      "name": "DevTech Solutions",
+      "position": "Backend Developer"
+    },
+    "id": 19
+  },
+  {
+    "fullName": "Marina Vega",
+    "age": 30,
+    "phone": "+1445566778",
+    "email": "marina.vega@example.com",
+    "address": "234567 Sea Avenue, City",
+    "company": {
+      "name": "Software Creations",
+      "position": "Software Engineer"
+    },
+    "id": 20
+  },
+  {
+    "fullName": "Pablo Martin",
+    "age": 29,
+    "phone": "+1567890123",
+    "email": "pablo.martin@example.com",
+    "address": "345678 Port Roundabout, City",
+    "company": {
+      "name": "Smart Developers",
+      "position": "Full Stack Developer"
+    },
+    "id": 21
+  }
+]
